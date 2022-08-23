@@ -1,4 +1,5 @@
 .courses{
+  margin:auto;
   border:1px solid gray;
   padding:20px;
   display:flex;
@@ -14,6 +15,14 @@
   flex-wrap:wrap;
   margin:auto;
   justify-content:center;
+}
+#explore-btn {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px;
+}
+#explore-btn:hover{
+  box-shadow:2px 2px 2px gray;
 }
 
 body {

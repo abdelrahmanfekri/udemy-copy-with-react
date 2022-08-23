@@ -6,7 +6,7 @@ import courses from './courses.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <section className="courses">
+  <section className='courses' style={{margin:"20px"}}>
     <h3>Expand your career opportunities with Python</h3>
     <p>
       Take one of Udemy's range of Python courses and learn how to code
