@@ -17,7 +17,7 @@ root.render(
     </p>
     <button id="explore-btn" style={{ width: "150px" }}><b>Explore Python</b></button>
     <div id="display-courses">
-      {courses.map((course) => <Card course={course} />)}
+      {courses.map((course) => <Card id={course.id} course={course} />)}
     </div>
   </section>
 );
