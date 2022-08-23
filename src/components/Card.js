@@ -9,14 +9,14 @@ function Card(props) {
                 <b> ${props.course.title} </b>
             </figcaption>
             <p style={{ fontSize: "12px" }}>{props.course.headline}</p>
-            <div style={{ color: "darkorange" }}>
-                <span style={{ fontSize: "20px", color: "rgb(248, 165, 23)" }}>${parseFloat(props.course.rating).toFixed(1)}</span>
+            <div style={{ color: "darkorange",display:"flex",alignItems:"center" }}>
+                <span style={{ fontSize: "20px", color: "rgb(248, 165, 23)" }}>{parseFloat(props.course.rating).toFixed(1)}
+                </span>
+                <ReactStars count={props.course.rating} size={24}color="#ffd700" edit={false}></ReactStars>
                 <span style={{ color: "darkgray" }}>(56665)</span>
             </div>
             <div>
                 <span> price :</span>
-                <ReactStars count={props.course.rating} size={24}
-                    activeColor="#ffd700" edit={false}></ReactStars>
                 <b id="course-price">${props.course.price}</b>
             </div>
         </div >
