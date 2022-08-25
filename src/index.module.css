@@ -5,27 +5,28 @@
   display:flex;
   flex-direction:column;
 }
-.courses-content{
+.coursesContent{
   width:260px;
   display: block;
   padding:8px;
 }
-#display-courses{
+.displayCourses{
   display: flex;
   flex-wrap:wrap;
   margin:auto;
   justify-content:center;
 }
-#explore-btn {
+.exploreBtn {
+  width: 150px;
   background-color: white;
   border: 1px solid gray;
   padding: 10px;
 }
-#explore-btn:hover{
+.exploreBtn:hover{
   box-shadow:2px 2px 2px gray;
 }
 
-body {
+.body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -34,7 +35,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+.code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
